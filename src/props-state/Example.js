@@ -21,7 +21,7 @@ class Example extends Component {
   render() {
     return (
       <div className="App__body" >
-        <h1>
+        <h1 className="h1" >
           Intial Props coming from Parent 
           <span className="highlight"> Name: {this.props.name}</span> and
           <span className="highlight"> Age: {this.props.age}</span>

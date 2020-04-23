@@ -1,20 +1,19 @@
-
 .App {
   text-align: center;
   padding: 30px;
 }
 
-h1{
-  color:red;
+.h1 {
+  color: red;
 }
 
-.highlight{
+.highlight {
   color: blue;
 }
 
 .text {
-  font-size:30px;
-  color:red;
+  font-size: 30px;
+  color: red;
 }
 
 .button {
@@ -32,10 +31,10 @@ h1{
 }
 
 .form__input {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
   font-size: 1.2rem;
-	/* margin: 0 auto; */
+  /* margin: 0 auto; */
   padding: 1.5rem 2rem;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
