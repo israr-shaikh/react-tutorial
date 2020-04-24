@@ -5,7 +5,10 @@ import './App.css';
 // import App from './props-state/App';
 // import App from './custom-component/App';
 // import App from './slider/App';
-import App from './react-router/App';
+// import App from './react-router/App';
+// import App from './Hooks/classCounter';
+// import App from './Hooks/functionCounter';
+import App from './Hooks/objectHooks';
 
 
 export default App;

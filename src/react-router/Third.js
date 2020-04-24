@@ -7,6 +7,7 @@ class Third extends Component {
   }
 
   render() {
+    console.log(this.props);
     return (
       <div>
         <nav>
@@ -28,7 +29,7 @@ class Third extends Component {
             </li>
           </ul>
         </nav>
-        <div style={{ backgroundColor: "Yellow" }}>Three</div>
+        <div style={{ backgroundColor: "Yellow" }}>Three {this.props.location.state.alam} </div>
       </div>
     );
   }

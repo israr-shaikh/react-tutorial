@@ -14,8 +14,8 @@ class App extends Component {
       <Router>
         <Switch>
           <Route component={First} exact path="/" />
-          <Route component={Second} path="/second" />
-          <Route component={Third} path="/third" />
+          <Route component={Second} exact path="/second/:username" />
+          <Route component={Third} exact path="/third" />
         </Switch>
       </Router>
     );

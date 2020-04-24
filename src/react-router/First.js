@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink  } from "react-router-dom";
 
 class First extends Component {
   constructor(props) {
@@ -12,19 +12,13 @@ class First extends Component {
         <nav>
           <ul>
             <li>
-              <Link style={{ color: "white" }} to="/">
-                Home
-              </Link>
+              <NavLink activeStyle={{color:'white'}} to="/">Home</NavLink>
             </li>
             <li>
-              <Link style={{ color: "white" }} to="/second">
-                Second
-              </Link>
+              <NavLink activeStyle={{color:'red'}} to="/second">Second</NavLink>
             </li>
             <li>
-              <Link style={{ color: "white" }} to="/third">
-                Third
-              </Link>
+              <NavLink activeStyle={{color:'red'}} to="/third">Third</NavLink>
             </li>
           </ul>
         </nav>
