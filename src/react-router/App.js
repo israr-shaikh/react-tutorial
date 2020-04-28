@@ -11,13 +11,35 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route component={First} exact path="/" />
-          <Route component={Second} exact path="/second/:username" />
-          <Route component={Third} exact path="/third" />
-        </Switch>
-      </Router>
+      <React.Fragment>
+        <nav>
+          <ul>
+            <li>
+              <NavLink activeStyle={{ color: "white" }} to="/">
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeStyle={{ color: "red" }} to="/second">
+                Second
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeStyle={{ color: "red" }} to="/third">
+                Third
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+
+        <Router>
+          <Switch>
+            <Route component={First} exact path="/" />
+            <Route component={Second} exact path="/second/:username" />
+            <Route component={Third} exact path="/third" />
+          </Switch>
+        </Router>
+      </React.Fragment>
     );
   }
 }

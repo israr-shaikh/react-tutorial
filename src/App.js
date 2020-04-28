@@ -8,7 +8,8 @@ import './App.css';
 // import App from './react-router/App';
 // import App from './Hooks/classCounter';
 // import App from './Hooks/functionCounter';
-import App from './Hooks/objectHooks';
+// import App from './Hooks/objectHooks';
+import App from './Refrence/refs';
 
 
 export default App;
