@@ -10,7 +10,8 @@ import "./App.css";
 // import App from './Hooks/functionCounter';
 // import App from './Hooks/objectHooks';
 // import App from './Refrence/refs';
-import App from "./API/userLIst";
+// import App from "./API/userLIst";
 // import App from './Hooks/useEffectOnce';
+import App from './HOC/index';
 
 export default App;
